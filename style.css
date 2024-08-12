@@ -268,7 +268,7 @@ color: brown;}
     background-image: url(Images/banner-1571858_1280.jpg);
     background-size: cover;
     background-position: top 40% right 0;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     flex-direction: column;
     display: flex;
     justify-content: center;
@@ -312,6 +312,92 @@ color: brown;}
     background-color: rgb(33, 122, 94);
     color: white;
     
+}
+
+#sm-banner{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+#sm-banner button{
+
+    padding: 15px 30px;
+    border: 5 solid;
+    border-color: white;
+    cursor: pointer;
+    background-color: transparent;
+    color: aliceblue;
+}
+
+#sm-banner .banner-box:hover button{
+
+    font-size: 1rem;
+    text-decoration: none;
+    transition: 0.2s ease;
+    background-color: rgb(241, 240, 176);
+    color: black;
+}
+
+
+#sm-banner .banner-box2:hover button{
+
+    font-size: 1rem;
+    text-decoration: none;
+    transition: 0.2s ease;
+    background-color: rgb(241, 240, 176);
+    color: black;
+}
+
+
+#sm-banner .banner-box{
+
+background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+    padding: 30px;
+    min-width: 700px;
+    height: 60vh;
+    background-image: url(Images/mens-prof-banner-1024x615.png.webp);
+
+}
+
+#sm-banner .banner-box2{
+
+    background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        
+        padding: 30px;
+        min-width: 700px;
+        height: 60vh;
+        background-image: url(Images/depositphotos_469233690-stock-photo-fashion-portrait-beauty-banner-woman.jpg);
+    
+    }
+    
+
+
+#sm-banner h4{
+    color: bisque;
+}
+
+#sm-banner h2{
+
+    color: lavenderblush;
+}
+
+#sm-banner span{
+    color: lavenderblush;
 }
 
 
