@@ -127,6 +127,7 @@ color: brown;}
 
 .section-p2{
     padding: 100px 0;
+
 }
 
 #Feature {
@@ -398,6 +399,79 @@ background-size: cover;
 
 #sm-banner span{
     color: lavenderblush;
+}
+
+#banner3{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+
+#banner3 .banner-box3{
+  
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    
+    padding: 20px;
+    min-width: 30%;
+    height: 30vh;
+    background-image: url(Images/sunglass.jpg);
+}
+
+#banner3 .banner-box4{
+    
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+    padding: 20px;
+    min-width: 30%;
+    height: 30vh;
+    background-image: url(Images/dgpatel2201014014444.jpg.crdownload);
+}
+
+#banner3 .banner-box5{
+
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+    padding: 20px;
+    min-width: 30%;
+    height: 30vh;
+    background-image: url(Images/stack-various-shades-blue-jeans-pile-blue-denim-jeans-texture-banner-canvas-denim-fashion-texture_35148-3397.avif);
+}
+
+#Newsletter {
+    padding:20px ;
+    
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-image: url(Images/blue.jpg);
+    background-position: 20% 30%;
+    margin: 1%;
+    
+    
 }
 
 
