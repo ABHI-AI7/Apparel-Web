@@ -474,6 +474,9 @@ background-size: cover;
     
 }
 
+
+
+
 #Newsletter h3 {
 
     color: darkblue;
@@ -481,13 +484,47 @@ background-size: cover;
 }
 
 #Newsletter input{
-    padding: 10px 15px;
+    padding: 0  15px;
+    font-size: 15px;
+    height:25px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    
 }
 
 #Newsletter button{
-    padding: 10px 15px;
+    padding: 0 15px;
+    font-size: 15px;
+    height: 25px;
+    border:  1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
 
+#Newsletter p  span{
+    color: crimson;
+}
+
+.col h4{
+   padding: 10px 0 ;
+}
+
+.col .follow{
+    padding:5px 0;
+}
+
+.col img{
+    justify-content: space-evenly;
+    height: 80px;
+    font: weight 1000px; ;
+    
+}
 
 
