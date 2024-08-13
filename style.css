@@ -440,7 +440,7 @@ background-size: cover;
     padding: 20px;
     min-width: 30%;
     height: 30vh;
-    background-image: url(Images/dgpatel2201014014444.jpg.crdownload);
+    background-image: url(Images/clothes-on-grunge-background-shelf-600nw-1867100056.webp);
 }
 
 #banner3 .banner-box5{
@@ -473,6 +473,21 @@ background-size: cover;
     
     
 }
+
+#Newsletter h3 {
+
+    color: darkblue;
+    font-size: 20px;
+}
+
+#Newsletter input{
+    padding: 10px 15px;
+}
+
+#Newsletter button{
+    padding: 10px 15px;
+}
+
 
 
 
