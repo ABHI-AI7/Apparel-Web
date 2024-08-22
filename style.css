@@ -78,6 +78,19 @@ bottom: -4px;
 left: 20px;
 }
 
+
+
+#mobile{
+    display:none;
+    align-items: center;
+}
+
+
+#close{
+    display: none;
+}
+
+
 #hero{background-image: url(Images/pexels-cottonbro-5119526.jpg);
 height: 80vh;
 max-width: 100%;
@@ -470,6 +483,7 @@ background-size: cover;
     background-image: url(Images/blue.jpg);
     background-position: 20% 30%;
     margin: 1%;
+    height: 20vh;
     
     
 }
@@ -527,4 +541,137 @@ background-size: cover;
     
 }
 
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+
+footer .logo1{
+    margin-bottom: 30px;
+}
+
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+    margin-left: 8px;
+}
+
+footer .follow i{
+    margin-left: 6px;
+    cursor: pointer;
+    padding-right: 4px;
+}
+
+
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 8px;
+}
+
+footer a{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+
+
+footer .install .row img{
+    border: 1px solid ;
+    border-radius: 6px;
+}
+
+footer .install img{
+    margin: 10px 0 15px 0;
+}
+
+
+footer .copyright{
+    width: 100%;
+    text-align: center;
+}
+
+
+@media (max-width:799px) {
+    .section-p1 {
+        padding: 40px 40px;
+    }
+    #Navbar {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #e3e6f3;
+        box-shadow: 0 40px 60px  rgba(0, 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+        transition: 0.3s;
+    }
+
+    #Navbar.active{
+        right: 0px;
+    }
+
+    #Navbar li{
+        margin-bottom: 25px;
+    }
+
+    #mobile{
+        display:flex;
+        align-items: center;
+    }
+
+    #mobile i{
+        font-size: 24px;
+        color: black;
+        padding-left: 20px;
+    }
+
+
+
+    #close{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: black;
+        font-size: 24px;
+        display: initial;
+    }
+
+    #lg-bag{
+        display: none;
+    }
+
+    #hero{
+        height: 70vh;
+        background-position: top 30% right 30%;
+        padding: 0 80px;
+    }
+
+    #Feature {
+        
+        justify-content: center;
+        
+    }
+
+    #Feature .feature-box {
+        
+        margin: 15px 15px;
+    }
+
+    
+
+}
